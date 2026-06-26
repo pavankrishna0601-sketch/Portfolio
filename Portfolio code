@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Krishna | Portfolio</title>
+    <style>
+        /* CSS Styles */
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: var(--primary-color);
+        }
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: #fff;
+            border-bottom: 2px solid #eee;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        .hero h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            color: #666;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .tag {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .card {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: var(--primary-color);
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hello!! 👋</h1>
+        <h2>MY NAME IS PAVAN</h2>
+        <div class="tags">
+            <span class="tag">MBA Graduate</span>
+            <span class="tag">Entrepreneur</span>
+            <span class="tag">Strategic Advisor</span>
+            <span class="tag">Consultant @ Deloitte</span>
+            <span class="tag">Chartered Accountant</span>
+            <span class="tag">Content Creator</span>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Work Experience</h2>
+
+        <div class="card">
+            <div class="job-header">
+                <div>
+                    <h3>ZEPTO PRIVATE LIMITED</h3>
+                    <strong>Senior Manager 2 - Category Growth & Strategy</strong>
+                </div>
+                <div><em>Jun 2024 - Present | Bangalore</em></div>
+            </div>
+            <ul>
+                <li><strong>P&L Leadership & Financial Impact:</strong> Directed P&L and strategy for over 8,000 products, delivering ₹60+ billion in sales while improving the category bottom line by ₹140 million/month and achieving a 320 bps margin impact.</li>
+                <li><strong>Category Growth & Market Expansion:</strong> Spearheaded assortment expansion and GTM strategies (including a highly successful Private Label Staples launch), driving 3X overall category growth in 6 months and winning the Zepto Aces Award.</li>
+                <li><strong>Operational Excellence & Demand Planning:</strong> Optimized inventory and pricing operations by executing demand forecasts that cut stockouts by 26% and implementing process checks that curbed revenue leakages by ₹2.4 million/month.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="job-header">
+                <div>
+                    <h3>DELOITTE TOUCHE TOHMATSU INDIA LLP</h3>
+                    <strong>Assistant Manager - M&A Consulting</strong>
+                </div>
+                <div><em>Nov 2021 – Oct 2022 | Chennai</em></div>
+            </div>
+            <ul>
+                <li>Contributed to 6+ Financial due diligence engagements in the healthcare sector, identifying INR 1.6+ Bn worth of value for investors.</li>
+                <li>Received "Live the Dot" award appreciation for outstanding stakeholder management in the second largest hospital buyout in India.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+
+        <div class="card">
+            <h3>Dropshipping Business - CHIKKIFY</h3>
+            <p><strong>Role:</strong> Co-Founder, Strategy and Growth Lead</p>
+            <ul>
+                <li>Led customer strategy for premium gourmet Chikkis, achieving ₹65K sales in 5 weeks.</li>
+                <li>Spearheaded digital marketing resulting in 120K+ Social Media impressions and optimized unit economics to achieve a 35% margin.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Strategy: Launching a Plant-Based Meat Brand</h3>
+            <p><strong>IIM Ahmedabad - Brain-a-thon (National Finalist)</strong></p>
+            <ul>
+                <li>Analyzed India's meat substitute market and developed a tailored marketing/product strategy for "UnMeat."</li>
+            </ul>
+        </div>
+        
+        </section>
+
+    <footer>
+        <p><strong>Phone:</strong> +91-96000-78483 | <strong>Email:</strong> pavan.krishna@mastersunion.org</p>
+        <p>
+            <a href="https://www.linkedin.com/in/pavan-krishna-/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/pavan___krishna__/" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
